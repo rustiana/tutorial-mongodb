@@ -1,3 +1,6 @@
+--open container
+docker container exec -i -t mongo_sample /bin/bash
+
 --login
 mongo -u denrus -p denrus
 
